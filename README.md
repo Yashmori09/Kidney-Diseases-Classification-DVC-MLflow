@@ -25,11 +25,11 @@ https://github.com/Yashmori09/Kidney-Diseases-Classification-DVC-MLflow.git
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+python -m venv <folder path> <virtual env name>
 ```
 
 ```bash
-conda activate cnncls
+<virtual env name>\Scripts\activate.bat
 ```
 
 
@@ -65,20 +65,20 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=<Enter your URI> \
+MLFLOW_TRACKING_USERNAME=<Enter your username> \
+MLFLOW_TRACKING_PASSWORD=<enter your password> \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
+export MLFLOW_TRACKING_URI=<Enter your URI> 
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=MLFLOW_TRACKING_USERNAME=<Enter your username>  
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=MLFLOW_TRACKING_PASSWORD=<enter your password>
 
 ```
 
