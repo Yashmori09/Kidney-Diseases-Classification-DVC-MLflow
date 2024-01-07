@@ -1,5 +1,23 @@
 # Kidney-Disease-Classification-MLflow-DVC
 
+Welcome to Kidney-Diseases-Classification-DVC-MLflow, an end-to-end deep-learning project focused on kidney disease classification. This project incorporates the power of Flask, VGG16, MLflow, and DVC, placing a strong emphasis on the model's performance and the modularity of the project.
+
+## Pretrained Model Details
+
+The classification model utilizes the VGG16 architecture, a powerful convolutional neural network (CNN) that has proven effective in image classification tasks. VGG16 was originally proposed by the Visual Geometry Group at the University of Oxford. It consists of 16 weight layers and has been pre-trained on large-scale image datasets.
+
+## Project Highlights
+
+- **VGG16 Model Integration:** This project leverages the VGG16 model for accurate kidney diseases classification. The VGG16 architecture's ability to capture intricate features in medical images makes it an ideal choice for this classification task.
+
+- **Modularity:** Designed with modularity in mind, Kidney-Diseases-Classification-DVC-MLflow provides a flexible and adaptable architecture. Easily customize and extend the project to suit your specific image classification needs.
+
+- **MLflow Integration:** MLflow is seamlessly integrated into the project to track experiments, log parameters, and save models. This facilitates reproducibility and allows for efficient model management.
+
+- **DVC Integration:** DVC (Data Version Control) is employed to handle data versioning, ensuring reproducibility and efficient management of large datasets.
+
+- **Flask for Deployment:** The Flask web framework is utilized for deploying the kidney diseases classification model, providing an easy-to-use interface for end-users.
+
 
 ## Workflows
 
